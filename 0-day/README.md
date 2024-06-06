@@ -2,7 +2,7 @@
 
 ## ex00 - Test Sign
 
-Write a function test_sign of type int -> unit that displays "positive" or
+Write a function testSign of type int -> unit that displays "positive" or
 "negative" followed by a new line, depending on the sign of the parameter.
 0 is always considered positive.
 
@@ -37,24 +37,24 @@ As additional information, 987 is not part of the sequence because 789 is alread
 part of it. Also note that for instance, 999 is not part of the sequence because the 3 digits
 are not different from the 2 others
 
-## ex05 - Print printReverseString
+## ex05 - Print Reverse String
 
-Write a function print_rev of type string -> unit that prints its string parameter in reverse order, one character at a time, ending with a new line.
+Write a function printRev of type string -> unit that prints its string parameter in reverse order, one character at a time, ending with a new line.
 
-## ex06: string_all
+## ex06: String All
 
-Write a function string_all of type (char -> bool) -> string -> bool. This function takes a predicate function and a string as parameters, and applies the predicate to each character of the string. If the predicate is true for every character, it returns true; otherwise, false.
+Write a function stringAll of type (char -> bool) -> string -> bool. This function takes a predicate function and a string as parameters, and applies the predicate to each character of the string. If the predicate is true for every character, it returns true; otherwise, false.
 
-## ex07: is_palindrome
+## ex07: Is Palindrome
 
-Write a function is_palindrome of type string -> bool that returns true if the string parameter is a palindrome, false otherwise. The empty string is a palindrome.
+Write a function isPalindrome of type string -> bool that returns true if the string parameter is a palindrome, false otherwise. The empty string is a palindrome.
 
-## ex08: rot_n
+## ex08: Rot N
 
-Write a function rot_n of type int -> string -> string. This function rotates each lowercase and uppercase alphabetical character of the string by n positions.
+Write a function rotN of type int -> string -> string. This function rotates each lowercase and uppercase alphabetical character of the string by n positions.
 
-## ex09: print_comb2
+## ex09: Print Comb2
 
-Write a function print_comb2 of type unit -> unit that displays each unique combination of two numbers between 00 and 99 in ascending order. Each combination is separated by a comma and a space, ending with a newline.
+Write a function printComb2 of type unit -> unit that displays each unique combination of two numbers between 00 and 99 in ascending order. Each combination is separated by a comma and a space, ending with a newline.
 
 
